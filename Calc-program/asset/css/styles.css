@@ -1,0 +1,103 @@
+#tirar espaçamentos
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body, html{
+/* Deixando 100% da tela */
+    height: 100%;
+    width: 100%;
+  
+/* Codigo de gradiente se nao fosse usar a foto */
+  background: linear-gradient(72deg, #4280e1 1%, #3decb1 72%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.texto-header{
+  font-weight: 100;
+  font-size: 110%;
+  color: white;
+}
+
+.botao{
+  border-radius: 10%;
+  border: none;
+  width: 30px;
+  height: 30px;
+  background-color: gray;
+  color: white;
+}
+
+.botao-igual{
+  border-radius: 4%;
+  border: none;
+  width: 30px;
+  height: 65px;
+  background-color: gray;
+  color: white;
+}
+
+.botao-zero{
+  border-radius: 8%;
+  border: none;
+  width: 65px;
+  height: 30px;
+  background-color: gray;
+  color: white;
+}
+
+.corpo-calc{
+  position: absolute;
+  background-color: black;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 10%;
+  padding: 2%;
+  opacity: 0.8;
+  box-shadow: 0 20px 30px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.botao:hover{
+  background-color: rgba(0, 0, 0, 0.541);
+}
+
+.botao-zero:hover{
+  background-color: rgba(0, 0, 0, 0.541);
+}
+
+.botao-igual:hover{
+  background-color: rgba(0, 0, 0, 0.541);
+}
+
+#resultado{
+  background-color: white;
+  width: 96%;
+  margin: auto;
+  margin-bottom: 10%;
+  margin-top: 5%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  border-radius: 2%;
+  font-size: 1.5rem;
+}
+
+footer{
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  color: white;
+  font-weight: 50%;
+  font-size: 60%;
+  background: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0px 5px 0px 5px;
+
+}

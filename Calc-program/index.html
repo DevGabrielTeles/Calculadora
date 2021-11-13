@@ -1,0 +1,81 @@
+<!-- https://youtu.be/27JtRAI3QO8 32:41 -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--========== ICONES ==========-->
+    <!-- https://iconscout.com/unicons/getting-started/line -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    
+    <!--========== css ==========-->
+    <link rel="stylesheet" href="">
+    
+    <!--========== ICONES ==========-->
+    <link rel="stylesheet" href="asset/css/styles.css">
+    
+        <title>Calculadora</title>
+</head>
+<body>
+    <header class="" id="header">
+        <h1 class="texto-header"><i class="uil uil-calculator"></i> Calculadora </h1>
+        <hr style="margin-left: -10%;margin-right: -10%;">
+    </header>
+
+    <!--========== MAIN ==========-->
+    <main class="main">
+        
+        <section id="Calculadora"  class="corpo-calc">
+            <p id="resultado" > </p>
+            <table>
+            <tr>          
+                 <td><button class="botao" onclick="insert('/')"> / </button></td> 
+                <td><button class="botao" onclick="insert('*')"> <i class="uil uil-multiply"></i> </button></td>
+                <td><button class="botao" onclick="clean()"> C </button></td> 
+                <td><button class="botao" onclick="back('')"> <i class="uil uil-backspace"></i> </button></td> 
+            </tr>
+            <tr>          
+                <td><button class="botao" onclick="insert('7')"> 7 </button></td> 
+                <td><button class="botao" onclick="insert('8')"> 8 </button></td> 
+                <td><button class="botao" onclick="insert('9')"> 9 </button></td> 
+                <td><button class="botao" onclick="insert('-')"> - </button></td>
+            </tr>
+            <tr>            
+                <td><button class="botao" onclick="insert('4')"> 4 </button></td> 
+                <td><button class="botao" onclick="insert('5')"> 5 </button></td> 
+                <td><button class="botao" onclick="insert('6')"> 6 </button></td> 
+                <td><button class="botao" onclick="insert('+')"> + </button></td>
+            </tr>
+            <tr>           
+                <td><button class="botao" onclick="insert('1')"> 1 </button></td> 
+                <td><button class="botao" onclick="insert('2')"> 2 </button></td> 
+                <td><button class="botao" onclick="insert('3')"> 3 </button></td> 
+                <td rowspan="2"><button class="botao-igual" onclick="calcular()"> = </button></td>
+            </tr>
+            <tr>            
+                <td colspan="2" ><button class="botao-zero"  onclick="insert('0')"> 0 </button></td> 
+                <td><button class="botao"  onclick="insert('.')"> . </button></td> 
+            </tr>
+        </table>
+        </section>
+    </main>   
+
+    <!--========== Footer ==========--> 
+    <footer class="footer">
+        <div>
+            <p>Calculadora criada 13/11/2021 por  <a style="color: white;" target="_blank" href="https://www.linkedin.com/in/gabrieltelessantos/"  ><u>Gabriel Teles</u></a> </p>
+           
+        </div>
+    </footer>
+
+    <!--========== SWIPER JS ==========-->  
+    <script src=""></script>
+
+    <!--========== MAIN.JS ==========-->
+    <script src="asset/js/main.js"></script>
+
+    </body>
+</html>
